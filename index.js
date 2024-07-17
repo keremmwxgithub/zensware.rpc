@@ -56,19 +56,17 @@ client.on('ready', async () => {
   const updatePresenceAndActivity = () => {
     sendWebhookMessage();
     const r = new Discord.RichPresence()
-      .setApplicationId('Application-ID') // Please replace all values to your own. If it seems to say null then you could easily replace it with 'text/image-value' 
+      .setApplicationId('1') // Please replace all values to your own. If it seems to say null then you could easily replace it with 'text/image-value' 
       .setType('STREAMING') // Playing, Streaming, Watching, Listening, Competing 
-      .setURL('https://twitch.tv/zensware')
-      .setState('State')
-      .setName('Name')
-      .setDetails('Details')
+      .setURL('https://www.youtube.com/watch?v=4yFiBhNIWYo')
+      .setState('✧˚ · . ᴀᴄᴛɪᴠᴇ 𝟸𝟺/𝟽')
+      .setName(' ')
+      .setDetails('`≡;- ꒰ ° ᴋᴇʀᴇᴍᴍ ꒱ 💙')
       .setStartTimestamp(Date.now())
-      .setAssetsLargeImage('large-image-url')
-      .setAssetsLargeText('large-image-text')
-      .setAssetsSmallImage('small-image-url')
-      .setAssetsSmallText('small-image-text')
-      .addButton('Github Repo', 'https://github.com/zensware/ZenithRPC')
-      .addButton('Discord', 'https://discord.gg/stWgVnBgHq');
+      .setAssetsLargeImage('https://media.discordapp.net/attachments/1097132368441122879/1262994897095495690/c06cd2a398e8d28150d503bb004649e3.jpg?ex=66989f28&is=66974da8&hm=1ce16680d6c5845cb0f07c50535549d8a7019c3196bb1bd074d67c8e67a959d5&')
+      .setAssetsLargeText(''･ﾟ✧*:･ﾟ  ᴅᴏ ɴᴏᴛ ᴅɪsᴛᴜʀʙ')
+      .setAssetsSmallImage('')
+      .setAssetsSmallText('')
     client.user.setActivity(r);
   };
 
