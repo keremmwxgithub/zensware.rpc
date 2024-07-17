@@ -64,9 +64,9 @@ client.on('ready', async () => {
       .setDetails('`≡;- ꒰ ° ᴋᴇʀᴇᴍᴍ ꒱ 💙')
       .setStartTimestamp(Date.now())
       .setAssetsLargeImage('https://media.discordapp.net/attachments/1097132368441122879/1262994897095495690/c06cd2a398e8d28150d503bb004649e3.jpg?ex=66989f28&is=66974da8&hm=1ce16680d6c5845cb0f07c50535549d8a7019c3196bb1bd074d67c8e67a959d5&')
-      .setAssetsLargeText(''･ﾟ✧*:･ﾟ  ᴅᴏ ɴᴏᴛ ᴅɪsᴛᴜʀʙ')
+      .setAssetsLargeText('･ﾟ✧*:･ﾟ  ᴅᴏ ɴᴏᴛ ᴅɪsᴛᴜʀʙ')
       .setAssetsSmallImage('')
-      .setAssetsSmallText('')
+      .setAssetsSmallText(' ')
     client.user.setActivity(r);
   };
 
